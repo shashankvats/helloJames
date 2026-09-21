@@ -11,6 +11,10 @@ public class HelloController {
     public String sayHello() {
         return "Hello World";
     }
+    @GetMapping("/galaxy")
+    public String sayHelloGalaxy() {
+        return "Hello Galaxy";
+    }
     @GetMapping("universe")
     public String sayHellouniverse() {
         return "Hello Universe!!!";
